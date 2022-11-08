@@ -4,7 +4,7 @@ int main() {
     int t, n, count {0};
     std::cin>>t;
     for(int i {0}; i<t; i++) {
-        cin >> n;
+        std::cin >> n;
         switch (n) {
             case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: std::cout<<n<<" 0\n"; break;
             case 10: case 20: case 30: case 40: case 50: case 60: case 70: case 80: std::cout<<n+(n/10)<<" 1\n"; break;
