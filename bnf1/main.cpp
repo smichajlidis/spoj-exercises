@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
     int t, n, count {0};
     std::cin>>t;
